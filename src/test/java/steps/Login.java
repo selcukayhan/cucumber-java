@@ -20,12 +20,7 @@ public class Login {
         driver = Hooks.driver;
     }
 
-    @Given("^I am on Login Page$")
-    public void i_should_sign_in() {
-        loginPage.getAndInitLoginPage();
-    }
-
-    @Then("^User enters username: (.*) and password: (.*)")
+    @Then("^User sign in with username: (.*) and password: (.*)")
     public void i_should_login(String username, String password){
         loginPage.signIn(username,password);
     }
