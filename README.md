@@ -1,5 +1,8 @@
 # cucumber-java-example
-A small example on how to use cucumber &amp; selenium in java. This should be seen as a small example only and should not be used for any larger framework as the tests might scale quite badly.
+A small example on how to use cucumber &amp; selenium in java with Page Object Model.
 
 ## Usage
 You can run the tests by either executing mvn test or running the specified feature file. 
+## Before Test
+This tests for sahibinden.com,
+Please update credentials in login.feature file
