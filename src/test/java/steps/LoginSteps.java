@@ -10,12 +10,12 @@ import org.openqa.selenium.WebDriver;
 
 import pages.LoginPage;
 
-public class Login {
+public class LoginSteps {
 
     public WebDriver driver;
     LoginPage loginPage = new LoginPage(driver);
 
-    public Login(){
+    public LoginSteps(){
         driver = Hooks.driver;
     }
 

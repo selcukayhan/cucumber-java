@@ -11,11 +11,11 @@ import org.openqa.selenium.WebDriver;
 import pages.LoginPage;
 import pages.MainPage;
 
-public class Main {
+public class MainSteps {
 
     private  WebDriver driver;
 
-    public Main(){
+    public MainSteps(){
         driver = Hooks.driver;
     }
 
