@@ -21,18 +21,18 @@ public class Login {
     }
 
     @Then("^User sign in with username: (.*) and password: (.*)")
-    public void i_should_login(String username, String password){
+    public void user_sign_in_with_username_and_password(String username, String password){
         loginPage.signIn(username,password);
     }
 
 
     @And("^Validates the Login Page$")
-    public void validatesTheLoginPage()  {
+    public void validates_the_login_page()  {
         Assert.assertTrue(driver.findElement(By.id("username")).isDisplayed());
     }
 
     @And("^User should not be logged in$")
-    public void userShouldNotBeLoggedIn()  {
+    public void user_should_not_be_logged_in()  {
         Assert.assertTrue(driver.findElement(By.className("error")).isDisplayed());
     }
 }
