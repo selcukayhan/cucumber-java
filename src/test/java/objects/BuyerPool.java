@@ -13,6 +13,6 @@ public class BuyerPool {
     }
 
     public static Buyer invalidLoginUser(WebDriver driver) {
-        return new Buyer("buyer@email.com", Config.INVALID_PASSWORD, Config.DEFAULT_USERNAME, driver);
+        return new Buyer(Config.DEFAULT_EMAIL, Config.INVALID_PASSWORD, Config.DEFAULT_USERNAME, driver);
     }
 }
