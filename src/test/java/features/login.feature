@@ -1,22 +1,11 @@
-Feature: Login Tests for Sahibinden
+Feature: Login Tests for Amazon
 
-  Scenario: User should login with correct credentials
-    Given User on www.sahibinden.com
-    And Validates the Home Page
-    When User click on sign in button
-    And Validates the Login Page
-    Then User sign in with username: "thisIsMyUsername" and password: "thisIsMyPassword"
-    And User should be logged in
+  Scenario: Valid Login
+    Given I am a user of amazon.com
+    When I log in using valid credentials
+    Then  I should be logged in
 
-  Scenario Outline: User should not sign in with wrong credentials
-    Given User on www.sahibinden.com
-    And Validates the Home Page
-    When User click on sign in button
-    And Validates the Login Page
-    Then User sign in with username: <username> and password: <password>
-    And User should not be logged in
-    Examples:
-      | username            | password             |
-      | correctUserName     | falsePassword        |
-      | falseUserName       | correctPassword      |
-      | falseUserName       | falsePassword        |
+  Scenario: Invalid Login
+    Given I am a user of amazon.com
+    When I log in using invalid credentials
+    Then I should not be logged in
