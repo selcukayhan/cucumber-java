@@ -1,19 +1,15 @@
 package steps;
 
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import objects.Buyer;
+import objects.Crawler;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import objects.LoginPage;
-import objects.Buyer;
-import objects.BuyerPool;
-import objects.BasePage;
-import sun.rmi.runtime.Log;
+
 import static objects.BuyerPool.defaultUser;
 
 public class MainSteps {
@@ -36,6 +32,12 @@ public class MainSteps {
     @Then("^I should not be logged in$")
     public void iShouldNotBeLoggedIn() {
         Assert.assertTrue(driver.findElement(By.id("auth-error-message-box")).isDisplayed());
+    }
+
+    @When("^Crawler visits departments from dropdown and write results to dropbox")
+    public void crawlerVisitsAmazonHomePageAndGetsDepartmentLinks(){
+        Crawler crawler = new Crawler(driver);
+        crawler.getUrlsAndWriteResponseToFileAndUploadToDropbox();
     }
 
 }

@@ -1,17 +1,11 @@
 package steps;
 
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Then;
-
 import cucumber.api.java.en.When;
 import objects.Buyer;
-import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
 import static objects.BuyerPool.defaultUser;
 import static objects.BuyerPool.invalidLoginUser;
-
-import objects.LoginPage;
 
 public class LoginSteps {
     public WebDriver driver;
