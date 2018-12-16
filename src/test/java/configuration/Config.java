@@ -10,6 +10,7 @@ public abstract class Config {
     public static final String DEFAULT_EMAIL = "testUser@test.com";
     public static final String DEFAULT_PASSWORD = "passwrod";
     public static final String INVALID_PASSWORD = "invalid";
+    public static final String DROPBOX_ACCESS_TOKEN = "";
 
     private Config() {
     }
