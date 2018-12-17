@@ -5,4 +5,4 @@ A small example on how to use cucumber &amp; selenium in java with Page Object M
 You can run the tests by either executing mvn test or running the specified feature file. 
 ## Before Test
 This tests for amazon.com,
-Please update credentials in login.feature file
+Please update credentials in Config file ( Credentials and DROPBOX_ACCESS_TOKEN )
