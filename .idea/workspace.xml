@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e1683cd-d796-4e69-bf63-c3169747a2b6" name="Default Changelist" comment="Driver converted to the">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VsuBGD17FoM7nbznmPadwTmvIi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e1683cd-d796-4e69-bf63-c3169747a2b6" name="Default Changelist" comment="" />
+      <created>1578053986807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578053986807</updated>
+      <workItem from="1578053989571" duration="2224000" />
+    </task>
+    <task id="LOCAL-00001" summary="Docker compose file added for selenium grid. &#10;Health check sh for docker added.">
+      <created>1578054157994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578054157994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Docker compose file added for selenium grid. &#10;Health check sh for docker added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker compose file added for selenium grid. &#10;Health check sh for docker added." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2492" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578054238517">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2492" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1578054238517" />
+    <state x="2251" y="142" key="CommitChangelistDialog2" timestamp="1578056452606">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2251" y="142" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1578056452606" />
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2" timestamp="1578054160180">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="280" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1578054160180" />
+  </component>
+</project>
