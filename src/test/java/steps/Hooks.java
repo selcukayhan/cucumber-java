@@ -6,13 +6,10 @@ import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URL;
-import java.rmi.Remote;
 
 public class Hooks {
 
@@ -27,7 +24,7 @@ public class Hooks {
                 driver.get(Config.MAIN_URL);
                 break;
             default:
-                driver = getLocalDriver();
+                driver = getDriver();
                 driver.get(Config.MAIN_URL);
                 break;
         }
@@ -47,7 +44,7 @@ public class Hooks {
         return null;
     }
 
-    public WebDriver getLocalDriver() {
+    public WebDriver getDriver() {
         return new ChromeDriver();
     }
 
