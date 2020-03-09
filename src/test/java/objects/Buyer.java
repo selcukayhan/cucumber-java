@@ -48,24 +48,3 @@ public class Buyer {
         return this;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
